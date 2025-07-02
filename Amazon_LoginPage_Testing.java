@@ -55,12 +55,12 @@ public class AppTest {
      Thread.sleep(2000);
      driver.findElement(By.xpath("(//a[@class='nav-a nav-a-2   nav-progressive-attribute'])")).click();
      WebElement sign=driver.findElement(By.xpath("(//input[@type='email'])"));
-     sign.sendKeys("kishorecode78@gmail.com");
+     sign.sendKeys("abc12378@gmail.com");
      Thread.sleep(2000);
      driver.findElement(By.xpath("//input[@type='submit']")).click();
      Thread.sleep(2000);
      WebElement pass=driver.findElement(By.xpath("(//input[@type='password'])"));
-     pass.sendKeys("kishore78@K");
+     pass.sendKeys("12345");
      driver.findElement(By.id("signInSubmit")).click();
  
   driver.quit();
